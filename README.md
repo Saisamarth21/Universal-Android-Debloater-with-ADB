@@ -23,8 +23,14 @@ All Files Needed for Android Debloater (ADB and Universal Android Debloater)
 ### Mac
 
  1. **Android platform tools**
- ```
- brew install android-platform-tools --cask
- ```
+    ```bash
+    brew install android-platform-tools --cask
+    ```
 
  2. **Download `uad_gui-macos`**
+
+ 3. **Open Command Prompt**
+    
+     ```bash
+     adb devices
+     ```
